@@ -1,0 +1,15 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "Projeto para verificar se o typescript está funcionando",
+    "author": "Igor Gonçalves",
+    "license": "MIT",
+    "scripts": {
+        "build": "rm -rf /* -f && tsc",
+        "start": "node main.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^4.9.4"
+    }
+}
